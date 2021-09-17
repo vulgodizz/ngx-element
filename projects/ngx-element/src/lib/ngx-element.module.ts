@@ -11,7 +11,7 @@ export class NgxElementModule {
 
   constructor(private injector: Injector) {
     const ngxElement = createCustomElement(NgxElementComponent, { injector });
-    customElements.define('ngx-element', ngxElement);
+    customElements.define('seo-manager', ngxElement);
   }
 
   static forRoot(modulePaths: any[]): ModuleWithProviders<NgxElementModule> {
